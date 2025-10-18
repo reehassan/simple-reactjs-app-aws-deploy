@@ -1,77 +1,48 @@
-# Simple React JS Project
+React App Deployment on AWS EC2
 
-## What is the use of this Repo
+### 🌐 Live Demo
 
-This Project is a Simple ReactJS Project which demonstrates the following
-1. Creating a Component in React
-2. Making HTTP calls
-3. Communicating between parent and child component
-4. Using Bootstrap along with React
-5. Using Basic Routing in React
+[http://100.26.45.145](http://100.26.45.145)
 
-The project Template can be used to build bigger projects
+---
 
-## Live Application URL
+## 🧩 Overview
 
-### https://aditya-sridhar.github.io/simple-reactjs-app
-This URL has the application deployed in
+A production-ready **React.js web app** deployed on **AWS EC2** using **Nginx** for hosting.
+This project demonstrates real-world **frontend deployment**, **server setup**, and **cloud hosting** skills.
 
-## Prerequisites
+---
 
-### Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+## ⚙️ Tech Stack
 
-### Install create-react-app
-Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
+* **Frontend:** React.js
+* **Server:** Nginx (Ubuntu 22.04)
+* **Cloud:** AWS EC2
+* **Tools:** Node.js, npm, Git
 
-```bash
-npm install -g create-react-app
-```
-## Live Application URL
+---
 
-The Application is deployed in https://aditya-sridhar.github.io/simple-reactjs-app
+## 🧠 Key Learnings
 
-Click on the link to see the application
+* Deployed React builds to a live EC2 instance
+* Configured Nginx for static hosting and routing
+* Managed Linux server setup & AWS security groups
+* Fixed common deployment issues (403, 404, routing)
 
-## Cloning and Running the Application in local
+---
 
-Clone the project into local
+## 🏁 Result
 
-Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+✅ React app running on AWS EC2
+✅ Stable, optimized, and accessible via public IP
+✅ Strengthened DevOps & deployment workflow understanding
 
-```bash
-npm install
-```
+---
 
-In order to run the application Type the following command
+## 👨‍💻 Developer
 
-```bash
-npm start
-```
+**Areeba Hassan**
+*Software Engineer | Devops Enthusiast*
+🔗 [GitHub](https://github.com/reehassan)
 
-The Application Runs on **localhost:3000**
-
-## Application design
-
-#### Components
-
-1. **Customers** Component : This Component displays a list of customers. This Component gets the data from a json file in assets folder
-
-2. **CustomerDetails** Component : This Component Displays the details of the selected customer. This Component gets its data from a json file in assets folder as well. This Component is the Child Component of *Customers* Component
-
-#### HTTP client
-
-**axios** library is used to make HTTP Calls
-
-#### URL
-
-The application has just one url /customerlist which ties to *Customers* Component
-
-## Resources
-
-**create-react-app** : The following link has all the commands that can be used with create-react-app
-https://github.com/facebook/create-react-app
-
-**ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
-
-**React Bootstrap** : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
+---
